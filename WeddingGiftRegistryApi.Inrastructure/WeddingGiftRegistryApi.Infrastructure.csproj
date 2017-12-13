@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WeddingGiftRegistryApi.Common\WeddingGiftRegistryApi.Common.csproj" />
     <ProjectReference Include="..\WeddingGiftRegistryApi.Domain\WeddingGiftRegistryApi.Domain.csproj" />
   </ItemGroup>
 

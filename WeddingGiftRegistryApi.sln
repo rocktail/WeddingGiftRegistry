@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeddingGiftRegistryApi.Domain.Core", "WeddingGiftRegistryApi.Domain.Core\WeddingGiftRegistryApi.Domain.Core.csproj", "{BAA2A868-6DDE-49E4-A900-FDF1052990A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeddingGiftRegistryApi.Common", "WeddingGiftRegistryApi.Common\WeddingGiftRegistryApi.Common.csproj", "{8DF7028E-B42D-4F4B-9783-0A5D67FCB395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{BAA2A868-6DDE-49E4-A900-FDF1052990A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAA2A868-6DDE-49E4-A900-FDF1052990A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAA2A868-6DDE-49E4-A900-FDF1052990A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF7028E-B42D-4F4B-9783-0A5D67FCB395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF7028E-B42D-4F4B-9783-0A5D67FCB395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF7028E-B42D-4F4B-9783-0A5D67FCB395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF7028E-B42D-4F4B-9783-0A5D67FCB395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{AA809532-A2C8-4894-A651-4095A26840B9} = {B9FAC008-4280-4C72-B8A8-A3D3A3DA893A}
 		{A4F306C2-5D3E-461E-8C6B-2DEFF8CE731D} = {9841667B-492D-4202-AE83-000B6D4B9F69}
 		{BAA2A868-6DDE-49E4-A900-FDF1052990A9} = {B9FAC008-4280-4C72-B8A8-A3D3A3DA893A}
+		{8DF7028E-B42D-4F4B-9783-0A5D67FCB395} = {4FE8A8AB-57F9-4787-8B01-16D5545917EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1F38B316-E429-4122-BA2F-83BE8C7038C3}
