@@ -8,4 +8,8 @@
     <PackageReference Include="Autofac" Version="4.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WeddingGiftRegistryApi.Domain.Core\WeddingGiftRegistryApi.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>

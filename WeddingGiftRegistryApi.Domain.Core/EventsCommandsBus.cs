@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
 using WeddingGiftRegistryApi.Domain.Core.MessageInterfaces;
 using WeddingGiftRegistryApi.Infrastructure.IoC;
 
@@ -16,10 +17,10 @@ namespace WeddingGiftRegistryApi.Domain.Core
 
 	    public void Publish<T>(T @event) where T : IEvent
 	    {
-		    //var handlers = IoC.Container.Resolve<IEnumerable<Handles<T>>>()
-			//    .ToList();
+		    var handlers = IoC.Container.Resolve<IEnumerable<Handles<T>>>()
+			    .ToList();
 
-		    //Parallel.ForEach(handlers, h => h.Handle(@event));
+		    Parallel.ForEach(handlers, h => h.Handle(@event));
 		}
     }
 }
