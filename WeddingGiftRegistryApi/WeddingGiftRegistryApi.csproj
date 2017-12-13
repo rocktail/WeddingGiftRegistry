@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WeddingGiftRegistryApi.ApplicationServices\WeddingGiftRegistryApi.ApplicationServices.csproj" />
+    <ProjectReference Include="..\WeddingGiftRegistryApi.ApplicationServices\WeddingGiftRegistryApi.Application.csproj" />
   </ItemGroup>
 
 </Project>
