@@ -4,13 +4,13 @@ namespace WeddingGiftRegistryApi.Domain.Gifts
 {
     public class Gift
     {
-	    private string name;
+	    public string Name { get; }
 
-		protected Gift() { }
+	    protected Gift() { }
 
 	    public Gift(string name)
 	    {
-		    this.name = name;
+		    this.Name = name;
 	    }
     }
 }
